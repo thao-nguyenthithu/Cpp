@@ -57,10 +57,10 @@ void search(const vector<Student>& st, const string& id){
 
 int main(){
     vector<Student> student = {Student("12", "Nguyen A", 8.0),
-                                    Student("13", "Nguyen B", 9),
-                                    Student("14", "Nguyen B", 9.8),
-                                    Student("15", "Nguyen B", 9),
-                                    Student("16", "Nguyen B", 9)};
+                                Student("13", "Nguyen B", 9),
+                                Student("14", "Nguyen B", 9.8),
+                                Student("15", "Nguyen B", 9),
+                                Student("16", "Nguyen B", 9)};
 
     for(const Student& s : student) {
         s.show();
