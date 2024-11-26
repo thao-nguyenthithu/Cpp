@@ -4,6 +4,12 @@
 
 using namespace std; 
 
+//Khuôn mẫu hàm 
+template <typename T> void nhapDuLieu(vector<T>& vec);
+template <typename T1, typename T2> void nhapDuLieu(T1& a, T2& b);
+template <typename T> T tinhTong(const vector<T>& vec);
+template <typename T1, typename T2> auto tinhTong(T1& a, T2& b);
+
 //a.Khuôn mẫu hàm nhập dữ liệu vào vector 
 template <typename T> 
 void nhapDuLieu(vector<T>& vec){
